@@ -6,18 +6,18 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://gatsbycontentfulhomepage.gatsbyjs.io/",
-    title: "Gatsby Contentful Homepage Starter",
-    author: `Gatsby`,
-    description: "A Gatsby Starter for building homepages with Contentful",
+    siteUrl: "https://mindasis.gatsbyjs.io/",
+    title: "Mindasis",
+    author: `Vi`,
+    description: "An Oasis for your Mind",
   },
   plugins: [
     {
       resolve: "gatsby-source-contentful",
       options: {
         downloadLocal: true,
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        spaceId: "9zldb2qkby5t", //process.env.CONTENTFUL_SPACE_ID
+        accessToken: "0Jcnreb7WBOrZhoD1pPw1F2ZGGh48WvNKA_PznNkzWI", //process.env.CONTENTFUL_ACCESS_TOKEN
         host: process.env.CONTENTFUL_HOST,
       },
     },
