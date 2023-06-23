@@ -1,0 +1,2441 @@
+[
+  {
+    "ts": "2023-06-23T10:52:54.895Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "blm4zeeq0l7e"
+            }
+          },
+          "id": "navItem",
+          "type": "ContentType",
+          "createdAt": "2023-01-10T20:50:03.744Z",
+          "updatedAt": "2023-01-12T17:24:14.895Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 7,
+          "publishedAt": "2023-01-12T17:24:14.895Z",
+          "firstPublishedAt": "2023-01-10T20:50:16.908Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "publishedCounter": 4,
+          "version": 8,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          }
+        },
+        "displayField": "text",
+        "name": "Nav Item",
+        "description": "",
+        "fields": [
+          {
+            "id": "text",
+            "name": "Text",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "href",
+            "name": "Href",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "icon",
+            "name": "Icon",
+            "type": "Link",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false,
+            "linkType": "Asset"
+          },
+          {
+            "id": "description",
+            "name": "Description",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/content_types/navItem",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 614
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"text\",\"name\":\"Nav Item\",\"description\":\"\",\"fields\":[{\"id\":\"text\",\"name\":\"Text\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"href\",\"name\":\"Href\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"icon\",\"name\":\"Icon\",\"type\":\"Link\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false,\"linkType\":\"Asset\"},{\"id\":\"description\",\"name\":\"Description\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false}]}"
+        },
+        "requestId": "e38b9502-e759-498a-81e7-22ee87b655d8"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:52:54.897Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "blm4zeeq0l7e"
+            }
+          },
+          "id": "navItemGroup",
+          "type": "ContentType",
+          "createdAt": "2023-01-10T20:50:03.574Z",
+          "updatedAt": "2023-01-12T17:24:15.190Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 7,
+          "publishedAt": "2023-01-12T17:24:15.190Z",
+          "firstPublishedAt": "2023-01-10T20:50:17.393Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "publishedCounter": 4,
+          "version": 8,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          }
+        },
+        "displayField": "name",
+        "name": "NavItemGroup",
+        "description": "A group of nav items with a title",
+        "fields": [
+          {
+            "id": "name",
+            "name": "Name",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "navItems",
+            "name": "NavItems",
+            "type": "Array",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false,
+            "items": {
+              "type": "Link",
+              "validations": [
+                {
+                  "linkContentType": [
+                    "navItem"
+                  ]
+                }
+              ],
+              "linkType": "Entry"
+            }
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/content_types/navItemGroup",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 461
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"name\",\"name\":\"NavItemGroup\",\"description\":\"A group of nav items with a title\",\"fields\":[{\"id\":\"name\",\"name\":\"Name\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"navItems\",\"name\":\"NavItems\",\"type\":\"Array\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false,\"items\":{\"type\":\"Link\",\"validations\":[{\"linkContentType\":[\"navItem\"]}],\"linkType\":\"Entry\"}}]}"
+        },
+        "requestId": "14abdccc-94d1-4310-81a4-a21375a21127"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:52:54.911Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "blm4zeeq0l7e"
+            }
+          },
+          "id": "homepageLinkGroup",
+          "type": "ContentType",
+          "createdAt": "2023-01-10T20:50:02.553Z",
+          "updatedAt": "2023-01-12T17:24:14.686Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 7,
+          "publishedAt": "2023-01-12T17:24:14.686Z",
+          "firstPublishedAt": "2023-01-10T20:50:16.462Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "publishedCounter": 4,
+          "version": 8,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          }
+        },
+        "displayField": "name",
+        "name": "Homepage Link Group",
+        "description": "A group of links with a title",
+        "fields": [
+          {
+            "id": "name",
+            "name": "Name",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "links",
+            "name": "Links",
+            "type": "Array",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false,
+            "items": {
+              "type": "Link",
+              "validations": [
+                {
+                  "linkContentType": [
+                    "navItem"
+                  ]
+                }
+              ],
+              "linkType": "Entry"
+            }
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/content_types/homepageLinkGroup",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 457
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"name\",\"name\":\"Homepage Link Group\",\"description\":\"A group of links with a title\",\"fields\":[{\"id\":\"name\",\"name\":\"Name\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"links\",\"name\":\"Links\",\"type\":\"Array\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false,\"items\":{\"type\":\"Link\",\"validations\":[{\"linkContentType\":[\"navItem\"]}],\"linkType\":\"Entry\"}}]}"
+        },
+        "requestId": "495d7b7d-bd2a-4a0f-91c7-5ea1a81eaab8"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:52:55.938Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "blm4zeeq0l7e"
+            }
+          },
+          "id": "link",
+          "type": "ContentType",
+          "createdAt": "2023-01-12T17:29:17.146Z",
+          "updatedAt": "2023-01-12T17:29:18.947Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 1,
+          "publishedAt": "2023-01-12T17:29:18.947Z",
+          "firstPublishedAt": "2023-01-12T17:29:18.947Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "publishedCounter": 1,
+          "version": 2,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          }
+        },
+        "displayField": "href",
+        "name": "Link",
+        "description": "Represents a Link inside a Landing Page Content block.",
+        "fields": [
+          {
+            "id": "href",
+            "name": "href",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+              {
+                "regexp": {
+                  "pattern": "^(ftp|http|https|\\/)",
+                  "flags": null
+                }
+              }
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "text",
+            "name": "text",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/content_types/link",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 434
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"href\",\"name\":\"Link\",\"description\":\"Represents a Link inside a Landing Page Content block.\",\"fields\":[{\"id\":\"href\",\"name\":\"href\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[{\"regexp\":{\"pattern\":\"^(ftp|http|https|\\\\/)\",\"flags\":null}}],\"disabled\":false,\"omitted\":false},{\"id\":\"text\",\"name\":\"text\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false}]}"
+        },
+        "requestId": "314d46d5-61d9-4e10-9c67-a68446b48798"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:54:19.470Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "Z6dzqiQEsl9eJwRzWEsMU",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.258Z",
+            "updatedAt": "2023-01-12T17:25:51.188Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:51.188Z",
+            "firstPublishedAt": "2023-01-10T20:52:08.520Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Blog"
+            },
+            "href": {
+              "en-US": "#!"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "Z6dzqiQEsl9eJwRzWEsMU",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.258Z",
+            "updatedAt": "2023-01-12T17:25:51.188Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:51.188Z",
+            "firstPublishedAt": "2023-01-10T20:52:08.520Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Blog"
+            },
+            "href": {
+              "en-US": "#!"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/Z6dzqiQEsl9eJwRzWEsMU",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 81
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Blog\"},\"href\":{\"en-US\":\"#!\"}}}"
+        },
+        "requestId": "0e432094-0f66-482d-911f-26aa45a5bf6d"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:54:20.507Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "7ohDn28pjA1jyZUYxF2Zkt",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:29.283Z",
+            "updatedAt": "2023-01-12T17:25:51.976Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:51.976Z",
+            "firstPublishedAt": "2023-01-10T20:52:10.086Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Track"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "oItNIXulMbf4K1ERM31KO"
+                }
+              }
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "7ohDn28pjA1jyZUYxF2Zkt",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:29.283Z",
+            "updatedAt": "2023-01-12T17:25:51.976Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:51.976Z",
+            "firstPublishedAt": "2023-01-10T20:52:10.086Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Track"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "oItNIXulMbf4K1ERM31KO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/7ohDn28pjA1jyZUYxF2Zkt",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 171
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Track\"},\"href\":{\"en-US\":\"#!\"},\"icon\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"oItNIXulMbf4K1ERM31KO\"}}}}}"
+        },
+        "requestId": "bad904d2-1027-419f-833d-4c882f5e05da"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:54:20.522Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "3HRx4NBErpaUkprPQ8m7Sx",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.256Z",
+            "updatedAt": "2023-01-12T17:25:51.440Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:51.440Z",
+            "firstPublishedAt": "2023-01-10T20:52:09.068Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Super"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "2NeXSSCyiXaBh82qjHqZJe"
+                }
+              }
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "3HRx4NBErpaUkprPQ8m7Sx",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.256Z",
+            "updatedAt": "2023-01-12T17:25:51.440Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:51.440Z",
+            "firstPublishedAt": "2023-01-10T20:52:09.068Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Super"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "2NeXSSCyiXaBh82qjHqZJe"
+                }
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/3HRx4NBErpaUkprPQ8m7Sx",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 172
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Super\"},\"href\":{\"en-US\":\"#!\"},\"icon\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"2NeXSSCyiXaBh82qjHqZJe\"}}}}}"
+        },
+        "requestId": "f48a483d-6d72-4a06-b0f5-b1da1de5f1a4"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:54:20.574Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "3dxvwGKNjISuIxiXNRPEoE",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.252Z",
+            "updatedAt": "2023-01-12T17:25:51.696Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:51.696Z",
+            "firstPublishedAt": "2023-01-10T20:52:09.608Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Market"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "dB20mJtrXcJTs59Kq7g1Z"
+                }
+              }
+            },
+            "description": {
+              "en-US": "Incremental crawl so much wow this explains why these are different boom"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "3dxvwGKNjISuIxiXNRPEoE",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.252Z",
+            "updatedAt": "2023-01-12T17:25:51.696Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:51.696Z",
+            "firstPublishedAt": "2023-01-10T20:52:09.608Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Market"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "dB20mJtrXcJTs59Kq7g1Z"
+                }
+              }
+            },
+            "description": {
+              "en-US": "Incremental crawl so much wow this explains why these are different boom"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/3dxvwGKNjISuIxiXNRPEoE",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 271
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Market\"},\"href\":{\"en-US\":\"#!\"},\"icon\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"dB20mJtrXcJTs59Kq7g1Z\"}}},\"description\":{\"en-US\":\"Incremental crawl so much wow this explains why these are different boom\"}}}"
+        },
+        "requestId": "c4066fea-a0ea-4882-adbc-4a44390f959f"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:54:20.862Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "6ptOjFmr6ezqAnuOG6QZVg",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.091Z",
+            "updatedAt": "2023-01-12T17:25:50.711Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:50.711Z",
+            "firstPublishedAt": "2023-01-10T20:52:07.972Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Pricing"
+            },
+            "href": {
+              "en-US": "#!"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "6ptOjFmr6ezqAnuOG6QZVg",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.091Z",
+            "updatedAt": "2023-01-12T17:25:50.711Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:50.711Z",
+            "firstPublishedAt": "2023-01-10T20:52:07.972Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Pricing"
+            },
+            "href": {
+              "en-US": "#!"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/6ptOjFmr6ezqAnuOG6QZVg",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 84
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Pricing\"},\"href\":{\"en-US\":\"#!\"}}}"
+        },
+        "requestId": "913c2c96-88dc-493c-b8f7-0e24a7664a79"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:54:21.508Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "6H574Qfx14ck7MTqiDMn2c",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.267Z",
+            "updatedAt": "2023-01-12T17:25:50.959Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:50.959Z",
+            "firstPublishedAt": "2023-01-10T20:52:08.253Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "About"
+            },
+            "href": {
+              "en-US": "/about"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "6H574Qfx14ck7MTqiDMn2c",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:28.267Z",
+            "updatedAt": "2023-01-12T17:25:50.959Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:50.959Z",
+            "firstPublishedAt": "2023-01-10T20:52:08.253Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "About"
+            },
+            "href": {
+              "en-US": "/about"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/6H574Qfx14ck7MTqiDMn2c",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 86
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"About\"},\"href\":{\"en-US\":\"/about\"}}}"
+        },
+        "requestId": "d976e7f6-d6b2-4b96-8be2-b9c150041658"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:54:21.547Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "3oq0lV1XsqCCdhOqf0MRmn",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:29.303Z",
+            "updatedAt": "2023-01-12T17:25:53.657Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:53.657Z",
+            "firstPublishedAt": "2023-01-10T20:52:11.263Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageLinkGroup"
+              }
+            }
+          },
+          "fields": {
+            "name": {
+              "en-US": "Products"
+            },
+            "links": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3HRx4NBErpaUkprPQ8m7Sx"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3dxvwGKNjISuIxiXNRPEoE"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "7ohDn28pjA1jyZUYxF2Zkt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "3oq0lV1XsqCCdhOqf0MRmn",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:29.303Z",
+            "updatedAt": "2023-01-12T17:25:53.657Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:53.657Z",
+            "firstPublishedAt": "2023-01-10T20:52:11.263Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageLinkGroup"
+              }
+            }
+          },
+          "fields": {
+            "name": {
+              "en-US": "Products"
+            },
+            "links": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3HRx4NBErpaUkprPQ8m7Sx"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3dxvwGKNjISuIxiXNRPEoE"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "7ohDn28pjA1jyZUYxF2Zkt"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/3oq0lV1XsqCCdhOqf0MRmn",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Content-Type": "homepageLinkGroup",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 302
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"name\":{\"en-US\":\"Products\"},\"links\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3HRx4NBErpaUkprPQ8m7Sx\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3dxvwGKNjISuIxiXNRPEoE\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"7ohDn28pjA1jyZUYxF2Zkt\"}}]}}}"
+        },
+        "requestId": "09a3df8b-cd3b-44d2-b8f8-5cf238142a37"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:54:21.558Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "5KJltiVBrr3rVOkWaBDk57",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:29.311Z",
+            "updatedAt": "2023-01-12T17:25:52.330Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:52.330Z",
+            "firstPublishedAt": "2023-01-10T20:52:10.570Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItemGroup"
+              }
+            }
+          },
+          "fields": {
+            "name": {
+              "en-US": "Products"
+            },
+            "navItems": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3HRx4NBErpaUkprPQ8m7Sx"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3dxvwGKNjISuIxiXNRPEoE"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "7ohDn28pjA1jyZUYxF2Zkt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "5KJltiVBrr3rVOkWaBDk57",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:29.311Z",
+            "updatedAt": "2023-01-12T17:25:52.330Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:52.330Z",
+            "firstPublishedAt": "2023-01-10T20:52:10.570Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItemGroup"
+              }
+            }
+          },
+          "fields": {
+            "name": {
+              "en-US": "Products"
+            },
+            "navItems": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3HRx4NBErpaUkprPQ8m7Sx"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3dxvwGKNjISuIxiXNRPEoE"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "7ohDn28pjA1jyZUYxF2Zkt"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/5KJltiVBrr3rVOkWaBDk57",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Content-Type": "navItemGroup",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 305
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"name\":{\"en-US\":\"Products\"},\"navItems\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3HRx4NBErpaUkprPQ8m7Sx\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3dxvwGKNjISuIxiXNRPEoE\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"7ohDn28pjA1jyZUYxF2Zkt\"}}]}}}"
+        },
+        "requestId": "e660a12d-51ac-4586-b65f-503e4e0e3d95"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:55:10.542Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "5if6x4hq89ja"
+            }
+          },
+          "id": "5rVbCUT6w6Q2595ISWVJXV",
+          "type": "Entry",
+          "createdAt": "2023-06-23T10:37:42.150Z",
+          "updatedAt": "2023-06-23T10:54:22.977Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "50iO79XuOAMfsVBTf48p2b"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "50iO79XuOAMfsVBTf48p2b"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 2,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "layoutHeader"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Header"
+          },
+          "cta": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "jlXcUdWMkXGQxIjkKnLSU"
+              }
+            }
+          },
+          "navItems": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5KJltiVBrr3rVOkWaBDk57"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6ptOjFmr6ezqAnuOG6QZVg"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6H574Qfx14ck7MTqiDMn2c"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "Z6dzqiQEsl9eJwRzWEsMU"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5KJltiVBrr3rVOkWaBDk57"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                0
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6ptOjFmr6ezqAnuOG6QZVg"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                1
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6H574Qfx14ck7MTqiDMn2c"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                2
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "Z6dzqiQEsl9eJwRzWEsMU"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                3
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/5rVbCUT6w6Q2595ISWVJXV/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Version": 2,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "b88ce982-ac45-4be6-9ae0-07dc52f007a4"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:55:22.048Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "5if6x4hq89ja"
+            }
+          },
+          "id": "5rVbCUT6w6Q2595ISWVJXV",
+          "type": "Entry",
+          "createdAt": "2023-06-23T10:37:42.150Z",
+          "updatedAt": "2023-06-23T10:54:22.977Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "50iO79XuOAMfsVBTf48p2b"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "50iO79XuOAMfsVBTf48p2b"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 2,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "layoutHeader"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Header"
+          },
+          "cta": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "jlXcUdWMkXGQxIjkKnLSU"
+              }
+            }
+          },
+          "navItems": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5KJltiVBrr3rVOkWaBDk57"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6ptOjFmr6ezqAnuOG6QZVg"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6H574Qfx14ck7MTqiDMn2c"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "Z6dzqiQEsl9eJwRzWEsMU"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5KJltiVBrr3rVOkWaBDk57"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                0
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6ptOjFmr6ezqAnuOG6QZVg"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                1
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6H574Qfx14ck7MTqiDMn2c"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                2
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "Z6dzqiQEsl9eJwRzWEsMU"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                3
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/environments/master/entries/5rVbCUT6w6Q2595ISWVJXV/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "X-Contentful-Version": 2,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "0d148061-fba0-45e4-9f7f-ecedd5bdd4e2"
+      }
+    }
+  },
+  {
+    "ts": "2023-06-23T10:55:22.048Z",
+    "level": "error",
+    "error": "Could not publish the following entities: Header (5rVbCUT6w6Q2595ISWVJXV)"
+  },
+  {
+    "ts": "2023-06-23T10:55:22.400Z",
+    "level": "error",
+    "error": {
+      "name": "Conflict",
+      "entity": {
+        "name": "Gatsby Builds",
+        "url": "https://webhook.gatsbyjs.com/hooks/data_source/publish/29e7da1b-50ea-44c6-a2b5-6b5411eb14eb",
+        "httpBasicUsername": null,
+        "topics": [
+          "ContentType.publish",
+          "Entry.publish",
+          "Asset.publish",
+          "ContentType.unpublish",
+          "Entry.unpublish",
+          "Asset.unpublish"
+        ],
+        "filters": null,
+        "transformation": null,
+        "active": true,
+        "sys": {
+          "type": "WebhookDefinition",
+          "id": "gatsby-builds",
+          "version": 0,
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "blm4zeeq0l7e"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "createdAt": "2023-01-13T15:23:35Z",
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "updatedAt": "2023-01-13T15:23:35Z"
+        },
+        "headers": [
+        ]
+      },
+      "data": {
+        "status": 409,
+        "statusText": "Conflict",
+        "message": "Please pass sys.version as HTTP header \"X-Contentful-Version\".",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/5if6x4hq89ja/webhook_definitions/gatsby-builds",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.58; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.3.1; os Windows/v20.3.1;",
+            "CF-Sequence": "2458346c-b7c2-4d58-9b6c-56b692cd4938",
+            "Authorization": "Bearer ...GtV2w",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 338
+          },
+          "method": "put",
+          "payloadData": "{\"name\":\"Gatsby Builds\",\"url\":\"https://webhook.gatsbyjs.com/hooks/data_source/publish/29e7da1b-50ea-44c6-a2b5-6b5411eb14eb\",\"httpBasicUsername\":null,\"topics\":[\"ContentType.publish\",\"Entry.publish\",\"Asset.publish\",\"ContentType.unpublish\",\"Entry.unpublish\",\"Asset.unpublish\"],\"filters\":null,\"transformation\":null,\"active\":true,\"headers\":[]}"
+        },
+        "requestId": "a1f7cf3f-b162-4c10-9587-71bd44ec6699"
+      }
+    }
+  }
+]
